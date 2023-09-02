@@ -1,0 +1,244 @@
+body{
+    min-height: 100vh;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    
+    background-color: rgb(240, 240, 240);
+    width: 100% ; 
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+}
+
+#personal{
+    text-decoration: none;
+    color: #396bf3;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #396bf3 ;
+    text-decoration: none;
+    font-weight:500 ;
+    font-size: 1.2em;
+    padding-left: 30px;
+}
+
+
+.navigation a:hover{
+    color: blueviolet;
+}
+
+
+.back{
+    display: flex;
+    min-height: 600px;
+    width: 100%;
+    justify-content: center;
+    padding-right:250px ;
+}
+
+
+#say{
+    color: #3b3c3cd3;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin: 150px 10px 10px 400px ;   
+}
+
+
+.dis{
+    color: #0071fb;
+    font-weight: 600;
+    font-size: 3em;
+    margin: 20px 20px 100px 400px ; 
+}
+
+
+#im{
+    margin: 140px 10px 100px 10px ;
+    
+}
+
+.header {
+    color: #508c4e;
+    font-size: 2.8em;
+    font-weight: 500;
+    margin: 1em  14em 1em ;
+
+}
+
+
+
+.Device{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(background.png);
+    padding-bottom: 30px;
+    min-height: 5em;
+}
+
+
+.devise-Card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    transition: 0.7s ease;
+
+}
+
+
+.devise-Card:hover{
+    transform: scale(1.1);
+}
+
+
+.devise-Card:hover .devise-img1{
+    opacity: 0.9;
+}
+
+
+.devise-info{
+    padding: 10px;
+}
+
+
+.devise-info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+
+
+.navigation .link{
+    padding: 0;
+}
+
+
+.all{
+    padding-bottom: 20px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+
+
+
+.content{
+    
+    display: flex;
+    justify-content:center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    min-height: 5em;
+
+}
+
+.card{
+    
+    width: 22em;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+.head{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.2em;
+    color:#396bf3;
+    margin: 70px 0px 50px;
+}
+
+
+.icon{
+
+    font-size: 8em;
+    text-align: center;
+    margin:20px 0px 30px 0px  ;
+
+    
+    color:#3a6cf4;
+}
+
+
+.info{
+    text-align: center;
+}
+
+
+.info h3{
+    margin-bottom:10px ;
+    color:#3a6cf4;
+    font-size: 2em;
+}
+
+
+
+.info p{
+    font-size: 1.5em;
+}
+
+
+.card:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+
+.info p:hover{
+    opacity: 0.8;
+    color: #508c4e;
+}
+
+
+.colect{
+    display: flex;
+    justify-content:center;
+    margin: 30px 0px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.15);
+    padding: 20px;
+    background-color: gray;
+}
+
+
+.one a{
+    padding: 15px;
+    font-size: 1.7em;
+    color: white;
+    transition: 0.7s ease;
+
+}
+
+
+.one:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}

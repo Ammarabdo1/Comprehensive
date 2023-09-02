@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    height: 3000px;
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 100px;
+}
+
+
+
+
+.details{
+    font-weight: 500;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+.visit a{
+    color: #007185;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.visit a:hover{
+    color:#C7511F;
+}
+
+
+.star{
+    color: #0F1111!important;
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
+
+.price{
+    font-weight: 500;
+    font-size: 2em;
+    display: inline;
+
+}
+
+p.price{
+    font-size: 1.8em;
+    font-weight: 350;
+    color: #CC0C39!important;
+}
+
+.list{
+    font-weight: 295;
+    font-size: 1.1em;
+}
+
+.about strong{
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.about p{
+    width: 50%;
+    display: inline;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-start;
+}   
+
+
+.about div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.submit{
+    color: #000000;
+    background-color: rgb(255, 174, 0);
+
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 0;
+    
+    transition: 0.7s ease;
+    margin: 50px 10px 0px 85px;
+    padding: 15px 120px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.15);
+    
+}
+
+.submit:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.complete{
+    color: #007185;
+    margin: 50px 0px 0px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4em;
+    display: inline;
+}
+
+
+
+.all{
+    border: 1px solid black ;
+    height: 300px;
+    margin-top:500px ;
+    padding: 40px 30px 0px 0px;
+}
+
